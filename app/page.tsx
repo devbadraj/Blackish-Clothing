@@ -47,7 +47,7 @@ export default function LandingPage() {
       <div
         className="absolute left-1/2 top-1/2 w-[230px] h-[80px]
          -translate-x-1/2 -translate-y-1/2 rounded-3xl z-20 flex 
-         flex-col items-center justify-center gap-4 user-select-none"
+         flex-col items-center justify-center gap-4 user-select-none pointer-events-none"
         style={{
           background: 'rgba(255,255,255,0.08)',
           backdropFilter: 'blur(20px) saturate(120%)',
